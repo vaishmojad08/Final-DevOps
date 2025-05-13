@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshHarvest - Organic Farming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">FreshHarvest</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="mobile-menu-btn" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Fresh Harvest</h1>
+            <p>Sustainable farming for a better tomorrow</p>
+            <a href="products.html" class="cta-button">Explore Our Products</a>
+        </section>
+
+        <section class="features">
+            <h2>Why Choose Us</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=500&auto=format" alt="Organic">
+                    <h3>100% Organic</h3>
+                    <p>All our products are certified organic and grown without harmful pesticides.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=500&auto=format" alt="Fresh">
+                    <h3>Farm Fresh</h3>
+                    <p>From farm to table within 24 hours, ensuring maximum freshness.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=500&auto=format" alt="Sustainable">
+                    <h3>Sustainable</h3>
+                    <p>Committed to sustainable farming practices and environmental conservation.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="30">30</span>
+                    <span>+</span>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="1000">100</span>
+                    <span>+</span>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="500">30</span>
+                    <span>+</span>
+                    <p>Acres of Farm</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="50">40</span>
+                    <span>+</span>
+                    <p>Products</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-content">
+                <h2>Our Story</h2>
+                <p>Since 1990, Fresh Harvest has been at the forefront of organic farming, providing communities with fresh, nutritious produce while maintaining sustainable agricultural practices. Our commitment to quality and environmental stewardship has made us a trusted name in organic farming.</p>
+                <a href="contact.html" class="secondary-button">Learn More</a>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&auto=format" alt="Customer 1">
+                        <p>"The quality of Fresh Harvest's produce is exceptional. I can taste the difference!"</p>
+                        <h4>Sarah Johnson</h4>
+                        <span>Regular Customer</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format" alt="Customer 2">
+                        <p>"Their commitment to sustainable farming practices is truly commendable."</p>
+                        <h4>Michael Brown</h4>
+                        <span>Chef</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format" alt="Customer 3">
+                        <p>"Fresh Harvest has transformed how I think about organic produce."</p>
+                        <h4>Emily Davis</h4>
+                        <span>Food Blogger</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest updates and seasonal offerings</p>
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="cta-button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="farm-gallery">
+            <h2>Life at Our Farm</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=400&auto=format" alt="Farm Life 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400&auto=format" alt="Farm Life 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&auto=format" alt="Farm Life 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&auto=format" alt="Farm Life 4">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Fresh Harvest</h3>
+                <p>Sustainable farming for a better tomorrow</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@freshharvest.com</p>
+                <p>Phone: 9370424986</p>
+                <p>Address: Nashik, Maharashtra</p>
+            </div>
+            <div class="footer-section">
+                <h3>Business Hours</h3>
+                <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                <p>Saturday: 9:00 AM - 4:00 PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Fresh Harvest. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
